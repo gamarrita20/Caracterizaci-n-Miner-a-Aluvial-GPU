@@ -1,0 +1,16 @@
+name: gis_gpu_env
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - rasterio
+  - geopandas
+  - shapely
+  - joblib
+  - matplotlib
+  - cupy
